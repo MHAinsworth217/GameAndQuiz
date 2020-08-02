@@ -99,7 +99,7 @@ def quiz():
     time.sleep(1)
     print("Who released the album Man on the Moon: The End of Day in 2009?")
     userans = input()
-    if userans.casefold == answers[4]:
+    if userans.casefold() == answers[4]:
         score += 1
     time.sleep(1)
     # Print the user's score
